@@ -1,20 +1,18 @@
 {
-  "name": "bitwasp/bitcoin",
+  "name": "mdance/bitcoin-php",
   "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
   "type": "library",
-  "homepage": "https://github.com/afk11/bitcoin",
+  "homepage": "https://github.com/mdance/bitcoin-php",
   "licence": "MIT",
   "authors": [
     {
-      "name": "Thomas Kerin",
-      "homepage": "https://thomaskerin.io",
-      "role": "Author"
+      "name": "Michael Dance",
     }
   ],
   "autoload": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\": "src/Bitcoin/",
-      "BitWasp\\Bitcoin\\Tests\\": "tests/"
+      "CryptoCurrency\\Bitcoin\\": "src/Bitcoin/",
+      "CryptoCurrency\\Bitcoin\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
